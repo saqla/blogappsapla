@@ -4,7 +4,5 @@ class HomeController < ApplicationController
   end
 
   def about
-    @subtitle = '30DAYS TRIAL'
-    render home: :about
   end
 end
