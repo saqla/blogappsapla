@@ -33,3 +33,74 @@ ClassAndModuleChildren:
 # 文字リテラルのイミュータブル宣言を無視（freezeになるのはRuby3以降）
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: false
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: false
+Lint/DuplicateElsifCondition:
+  Enabled: false
+Lint/MixedRegexpCaptureTypes:
+  Enabled: false
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
+Style/AccessorGrouping:
+  Enabled: false
+Style/ArrayCoercion:
+  Enabled: false
+Style/BisectedAttrAccessor:
+  Enabled: false
+Style/CaseLikeIf:
+  Enabled: false
+Style/ExponentialNotation:
+  Enabled: false
+Style/HashAsLastArrayItem:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: true
+Style/HashLikeCase:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/RedundantAssignment:
+  Enabled: false
+Style/RedundantFetchBlock:
+  Enabled: false
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+Style/RedundantRegexpEscape:
+  Enabled: false
+Style/SlicingWithRange:
+  Enabled: false
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: false
+Rails/FindById:
+  Enabled: false
+Rails/Inquiry:
+  Enabled: false
+Rails/MailerName:
+  Enabled: false
+Rails/MatchRoute:
+  Enabled: false
+Rails/NegateInclude:
+  Enabled: false
+Rails/Pluck:
+  Enabled: false
+Rails/PluckInWhere:
+  Enabled: false
+Rails/RenderInline:
+  Enabled: false
+Rails/RenderPlainText:
+  Enabled: false
+Rails/ShortI18n:
+  Enabled: false
+Rails/WhereExists:
+  Enabled: false
