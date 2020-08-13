@@ -5,7 +5,7 @@
     %div
       %p= @article.auther_name
       %p= @article.display_created_at
-    - if user_signed_in? && current_user.has_weitten?(@article)
+    - if user_signed_in? && current_user.has_written?(@article)
       .article_detail_actions
         .dropdown
           = image_tag 'actions.svg', class: 'dropbtn'
@@ -16,6 +16,12 @@
     = @article.content
   .article_heart
     = image_tag 'heart.svg'
+
+.article
+  %h2 コメント一覧
+  - @comments.each do |comment|
+    .article_comment
+      %p= comment.content
 
 .container
   = link_to new_article_comment_path(@article) do

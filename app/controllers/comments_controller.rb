@@ -10,7 +10,7 @@ class CommentsController < ApplicationController
     if @comment.save
       redirect_to article_path(article), notice: 'コメントを追加'
     else
-      frash.now[:error] = '更新できませんでした'
+      flash.now[:error] = '更新できませんでした'
       render :new
     end
   end
