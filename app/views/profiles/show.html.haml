@@ -1,4 +1,4 @@
-.container.ptofilePage
+.container.profilePage
   .profilePage_user
     .profilePage_user_image
       = image_tag 'default-avatar.png'
@@ -11,3 +11,5 @@
       .ptofilePage_user_introduction
         あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
 
+  - current_user.articles.each do |article|
+    = render 'commons/article', article: article
