@@ -37,9 +37,8 @@ class User < ApplicationRecord
     likes.exists?(article_id: article.id)
   end
 
-
   def display_name
-    profile&.nickname || self.email.split('@').first
+    profile&.nickname || email.split('@').first
   end
 
   def prepare_profile
