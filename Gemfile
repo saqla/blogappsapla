@@ -25,6 +25,7 @@ gem 'annotate'
 gem 'active_decorator'
 gem 'active_model_serializers'
 gem 'aws-sdk-s3', require: false
+gem 'sendgrid-ruby'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'devise'
