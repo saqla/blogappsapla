@@ -4,7 +4,7 @@ module UserDecorator
   def display_name
     profile&.nickname || email.split('@').first
   end
-  
+
   def avatar_image
     if profile&.avatar&.attached?
       profile.avatar

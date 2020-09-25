@@ -1,5 +1,5 @@
 class TimelinesController < ApplicationController
-before_action :authenticate_user!
+  before_action :authenticate_user!
 
   def show
     user_ids = current_user.followings.pluck(:id)
