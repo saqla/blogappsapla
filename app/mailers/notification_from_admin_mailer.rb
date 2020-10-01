@@ -3,5 +3,4 @@ class NotificationFromAdminMailer < ApplicationMailer
     @msg = msg
     mail to: user.email, subject: 'お知らせ'
   end
-
 end
